@@ -4,8 +4,8 @@
     {
         class Person
         {
-            public string name = "hz";
-            public string Surname = "kz";
+            public string name;
+            public string Surname;
             public int age;
         }
         static void Print(string result)
@@ -18,7 +18,7 @@
             josh.name = "Josh";
             josh.Surname = "Boleslava";
             josh.age = 15;
-            Print($"{josh.Surname} {josh.name} is {josh.age} years old");
+            Console.WriteLine($"{josh.Surname} {josh.name} is {josh.age} years old");
         }
     }
 }
